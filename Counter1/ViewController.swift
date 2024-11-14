@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         AddButton.tintColor = .red
     }
-    private var c: Int = 0
+    private var c: Int =  0
     @IBAction func Addition(_ sender: Any) {
         c += 1
         FirstImageView.text = String(c)
